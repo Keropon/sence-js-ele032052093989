@@ -1,0 +1,21 @@
+{
+  "name": "e2m8",
+  "version": "1.0.0",
+  "description": "E2-M8: Cargador de avatares con express-fileupload",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Pablo Olivares",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
