@@ -1,0 +1,14 @@
+<div id="popover-nuevo-tablero" popover="manual">
+    <h4 class="text-lg font-black uppercase tracking-tight mb-1 border-b-4 border-black pb-2">Nuevo Tablero</h4>
+    <form method="POST" action="/api/tableros" data-ajax-form>
+        <div class="mb-4">
+            <label class="form-label">Nombre del tablero</label>
+            <input type="text" name="nombre" placeholder="Ej: Proyecto Alpha" required class="form-input">
+        </div>
+        <div class="flex gap-2">
+            <button type="submit" class="btn-primary flex-1">Crear</button>
+            <button type="button" popovertarget="popover-nuevo-tablero" popovertargetaction="hide"
+                class="btn-secondary flex-1">Cancelar</button>
+        </div>
+    </form>
+</div>

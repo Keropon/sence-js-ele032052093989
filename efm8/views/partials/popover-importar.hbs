@@ -1,0 +1,14 @@
+<div id="popover-importar" popover="manual">
+    <h4 class="text-lg font-black uppercase tracking-tight mb-1 border-b-4 border-black pb-2">Importar Datos</h4>
+    <p class="text-xs font-bold uppercase tracking-wider mb-4" style="color:#cc0000;">⚠ Esto reemplazará todos los datos
+        actuales.</p>
+    <div class="mb-5">
+        <label class="form-label">Archivo JSON</label>
+        <input type="file" id="import-file-input" accept=".json" class="form-input-file">
+    </div>
+    <div class="flex gap-2">
+        <button type="button" id="import-confirm-btn" class="btn-primary flex-1">Importar</button>
+        <button type="button" popovertarget="popover-importar" popovertargetaction="hide"
+            class="btn-secondary flex-1">Cancelar</button>
+    </div>
+</div>
